@@ -4,7 +4,7 @@ export default function Tomato() {
     return (
         <div>
             <Navigation />
-            Home
+            <h1>Home</h1>
         </div>
     )
 }
