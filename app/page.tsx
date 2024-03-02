@@ -1,3 +1,10 @@
+import Navigation from "./components/navigation";
+
 export default function Tomato() {
-    return <h1>hello@</h1>
+    return (
+        <div>
+            <Navigation />
+            Home
+        </div>
+    )
 }
