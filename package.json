@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "author": "",
   "license": "MIT",
@@ -18,7 +20,7 @@
     "@types/node": "20.11.24",
     "@types/react": "18.2.61",
     "typescript": "5.3.3",
-    "eslint": "^6.6.0",
+    "eslint": "^9.1.0",
     "eslint-config-airbnb": "18.2.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-import": "^2.21.2",
